@@ -18,7 +18,7 @@ export default {
   name: 'App',
   data(){
     return{
-      msg:"大漠孤烟直"
+      msg:"大漠孤烟很直"
     }
   }
 }
