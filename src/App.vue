@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
+    <img src="./assets/11.jpg">
     <div class="hello">
       <h1>{{ msg }}</h1>
       <ul>
@@ -8,8 +9,8 @@
       </ul>
     </div>
     <router-view></router-view>
-    <router-link to="/two" >第二个</router-link>
-    <router-link to="/three" >第三个</router-link>
+    <router-link to="/two" >第2个跳转</router-link>
+    <router-link to="/three" >第3个跳转</router-link>
   </div>
 </template>
 
